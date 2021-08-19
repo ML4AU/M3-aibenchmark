@@ -47,6 +47,7 @@ $ pip install ai-benchmark
 ```
 
 3. Edit the relevant GPU file with your preferred text editor and ensure the path is set to your benchmark directory. 
+   Also make sure to edit the virtual environment path accordingly.
    The section to edit is clearly marked in the files. 
    For example:
 
@@ -61,7 +62,7 @@ $ pip install ai-benchmark
 4. Submit the benchmark using sbatch
 
 ```
-sbatch gpu_benchmark.sh
+sbatch gpu_benchmark.bash
 ```
 
 This will then run the benchmarks and save the 
